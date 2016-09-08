@@ -1,0 +1,4950 @@
+
+
+
+
+
+/*
+     FILE ARCHIVED ON 10:54:27 dez 30, 2010 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 13:13:41 set 8, 2016.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+body, .bodyPA {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(fondo_gral.jpg);
+	background-repeat: repeat-x;
+}
+.mTop{font-family: Arial, Helvetica;font-size: 8pt;text-decoration: none;color: #666666;}
+.aGrayBig{font-family: Arial, Helvetica;font-size: 9pt;font-weight:bold;text-decoration: none;color: #666666;}
+.aGray12{font-family: Arial, Helvetica;font-size: 12pt;font-weight:bold;text-decoration: none;color: #666666;}
+.aBlackBig {font-family: Arial, Helvetica;font-size: 9pt;font-weight:bold;text-decoration: none;color: #000000;}
+.LinkGrayBold {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #666666;
+	vertical-align: middle;
+}
+.lightYellowTable 
+{
+	padding-bottom : 0;
+	background-color : #fefae7;
+	border-width:0;
+	text-align:center;
+	width:760px;
+}
+.small 
+{ 
+	font-family: Arial, Helvetica; 
+	font-size: 8pt;
+}
+.small2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	letter-spacing: -1px;
+	font-weight: bold;
+}
+
+.hTable{
+	float:left;
+	width:100%;
+	background-color:#fffae5;
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/cabzBkg.jpg);
+	background-repeat:repeat-x;
+	vertical-align:top;
+	margin-top:0px;
+}
+
+.boxSearchTx {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	font-weight: bold;
+}
+
+
+.boxSearchTx3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 8pt;
+}
+
+.divBack
+{
+	
+	background-color: Black;
+	background-position:bottom;
+	background-repeat:repeat-x;
+	padding: 0px;
+	width: 760px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-bottom-color: #FF0000;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+
+.divHeaderResults
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/cabzBkg.jpg);
+	background-position:bottom;
+	background-repeat:repeat-x;
+	padding: 0px;
+	width: 760px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-bottom-color: #FF0000;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+
+
+.divChCountryUp
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/cabzBkg.jpg);
+	background-position:bottom;
+	background-repeat:repeat-x;
+	padding: 0px;
+	width: 760px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-bottom-width: 1px;
+	border-style: solid;
+	border-bottom-color: #FF0000;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+}
+.divChCountrySep
+{
+	border-top: 5px solid #FFD956;width:760px;margin-top:10px;
+}
+
+.divHeaderResults2 {
+	background-color: #FEFAE7;
+	margin: 0px auto;
+	padding: 0px;
+	width: 760px;
+	border-style: solid;
+	border-bottom-color: #CCCCCC;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-bottom-width: 1px;
+}
+
+.divlightYellow 
+{
+	padding-bottom : 0;
+	background-color : #fefae7;
+	border-width:0;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+.divCentered
+{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+ 
+.divLeft 
+{
+	padding-bottom : 0;
+	background-color : #fefae7;
+	border-width:0;
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.whiteTable 
+{
+	padding-bottom : 0;
+	background-color : #FFFFFF;
+	border-width:0;
+	text-align:center;
+	width:30px;
+}
+
+.upperLeftPager{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -2040px -574px;
+	background-repeat: no-repeat;
+}
+
+.upperPager{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/upperPager.gif);	
+	background-repeat:repeat-x;
+}
+
+.upperRightPager{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -2040px -658px;	
+	background-repeat:no-repeat;
+}
+
+.shadeResultLeft{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxShLeft01.gif);
+	background-repeat:no-repeat;
+	background-position:left top;	
+}
+
+.shadeResult{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxShBkg02.gif);	
+}
+
+.shadeResultRight{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxShRight02.gif);	
+	background-repeat:no-repeat;
+}
+
+.shadeResultBoxLeft{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_04.gif);	
+	background-repeat:repeat-y;
+}
+
+.shadeResultBoxRight{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_05.gif);	
+	background-repeat:repeat-y;
+}
+
+.sRBL{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_04.gif);	
+	background-repeat:repeat-y;
+	width:10px;
+}
+
+.sRBR{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_05.gif);	
+	background-repeat:repeat-y;
+	width:10px;
+}
+
+.bottomLeftPager{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -230px;
+	background-repeat:no-repeat;	
+}
+
+.bottomPager{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/bottomPager.gif);	
+	background-repeat:repeat-x;
+}
+
+.bottomRightPager{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -313px;	
+	background-repeat:no-repeat;
+}
+
+.botLeftGrayPager{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/botLeftGrayPager.gif);	
+}
+
+.botGrayPager{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/botGrayPager.gif);	
+}
+
+.botRightGrayPager{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/botRightGrayPager.gif);	
+}
+
+.bottomLeftGray{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_09.gif);	
+}
+
+.bottomGray{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_10.gif);	
+}
+
+.bottomRightGray{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_11.gif);	
+}
+
+.txtResults {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 8pt;color: #000000;line-height: 11pt;}
+.txtResultsHide {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 8pt;color: #F2F2F2;line-height: 11pt;}
+.txtResults2 {font-family: Arial, Helvetica; font-size: 8pt}
+
+.txtTitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	text-decoration: none;
+	color: #0000FF;
+	font-weight: bold;
+}
+
+.txtTitleBlack {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	text-decoration: none;
+	color: #0000FF;
+	font-weight: bold;
+}
+
+
+.divInfoBox {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 7pt;
+      color: #000000;
+      padding:8px;
+      border-color:#CCCCCC;
+      background-color:#FFFFFF;
+      border-style:solid;
+ 
+      border-width:1px
+}
+
+.txtSmallGray {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #666666;
+}
+
+.txtSmallLBlue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+	color: #0000FF;
+	vertical-align: bottom;
+}
+
+.txtBlack {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+
+}
+
+.txtDarkGray {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666666;
+	font-weight: bold;
+}
+
+.txtRed {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	font-size: 8pt;
+	text-decoration: none;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.txtRed12 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+ 	font-size: 12pt;
+	text-decoration: none;
+	color: #FF0000;
+	font-weight: bold;
+}
+
+.txtRedItalic {font-family: Verdana, Arial, Helvetica, sans-serif;	font-size: 8pt; font-style:italic; color: #FF0000; font-weight: bold;}
+.txtBlueItalic {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 9pt;font-style:italic;color: #0000FF;font-weight: bold;}
+.namelabel{font-family:Arial;font-size:8pt;font-weight:bold;color:#0000FF;}
+.namelink{font-family:Arial;font-size:8pt;color:red;}
+.divFLeft{float:left;}
+.divFRight{float:right;}
+.fields {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 8pt;
+	background-color: #FFFFCC;
+}
+
+.divJSponsor
+{
+	position:relative;
+	padding-top:5px;
+	padding-bottom:5px;
+	z-index:1;
+}
+
+.tdJSponsor
+{
+	text-align:center;
+}
+
+.divPadded5
+{
+	padding-top:5px;
+	padding-bottom:5px;
+}
+.divPR{padding-top:5px;padding-bottom:0px;}
+.divPRM{padding-top:5px;padding-bottom:5px;}
+
+.divFlashSponsor
+{
+	z-index:1;
+}
+
+.specialInsertion
+{
+	background-color:#fff4cf
+}
+
+
+.standardInsertion
+{
+	background-color:#F2F2F2;
+}
+
+.strongYellow {
+	background-color: #FEE600;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.divYellowMark
+{
+	background-color:#fcd345;
+	border:1px;
+	border-color:Gray;
+	border-style:groove;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.divBorderBeige {
+	background-color: #FEFAE7;
+	text-align: center;
+	padding: 2px;
+	width: 756px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-style: solid;
+	border-bottom-color: #CCCCCC;
+	font-family: Arial, Helvetica;
+	font-size: 8pt;
+	border-top-color: #CCCCCC;
+}
+
+.divBeige 
+{
+
+	background-color: #ffffff;
+	padding: 2px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-style: solid;
+	font-family: Arial, Helvetica;
+	font-size: 8pt;
+}
+
+.divBorderWhite {
+	text-align: center;
+	padding: 0px;
+	width: 760px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-style: solid;
+	border-bottom-color: #CCCCCC;
+}
+
+.divCreditsYellow {
+	background-color: #FFD956;
+	padding: 0px;
+	height: 5px;
+	width: 760px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+
+.divBUpYellow {
+	background-color: #fdde65;
+	text-align: center;
+	padding: 2px;
+	width: 756px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-style: solid;
+	font-family: Arial, Helvetica;
+	font-size: 8pt;
+	border-top-color: #CCCCCC;
+}
+
+.divBorderGray {
+	background-color: #DCDCDC;
+	padding: 0px;
+	height: 1px;
+	width: 760px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.grayboxborderLeft
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxLeftBkg01.gif);	
+}
+
+.grayborderRight{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_05.gif);
+	background-repeat:repeat-y;
+	padding:0px;
+	margin:0px;
+}
+
+.grayborderLeftBk{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxLeftBkg02.gif);
+	width:10px;
+	background-repeat:repeat-y;
+	background-position:right;
+	padding:0px;
+	margin:0px;
+}
+.grayborderRightBk{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_05.gif);
+	background-repeat:repeat-y;
+	padding:0px;
+	margin:0px;
+}
+
+.leftTermSubMenuCorner{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_05.gif);
+}
+
+.rightTermSubMenuCorner{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_05.gif);
+}
+
+.textContent {
+	font-size:10pt;
+	color:#000;
+}
+
+.leftBottomTableCorner{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -598px;
+	background-repeat:no-repeat;
+	height:15px; 
+	width:10px;
+}
+
+.rightBottomTableCorner{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -663px;
+	height:13px; 
+	width:15px;
+	background-repeat:no-repeat;
+	padding:0px;
+	margin:0px;
+}
+
+.borderBottomTableCorner{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxDwBkg01.gif);
+	height:13px; 
+}
+
+.announceBackGround{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_07.gif);
+	background-repeat:repeat-x; 
+
+}
+
+.grayborderLeft{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxLeftBkg01.gif);
+	background-repeat:repeat-y;
+	background-position:right;	
+}
+
+.grayborderRigth{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_05.gif);
+}
+
+.rightTermSubMenuCorner{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_05.gif);
+}
+
+.yellowLetter{
+	color :#ff9900;
+	font-weight: bold;
+}
+
+.headerBlackBold8{
+	font-size:8pt;
+	color:#000;
+	font-weight: bold;
+}
+
+.headerBlackBold12{
+	font-size:12pt;
+	color:#000;
+	font-weight: bold;
+}
+
+.divPadded10{
+	padding-top:10px;
+}
+
+.divPadded10D
+{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.textMediumBlack
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #000000;
+	line-height: 11pt;
+}
+
+.boxShLeft{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxShLeft02.gif);
+	background-repeat:no-repeat;
+}
+
+
+.topCenterTable{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_23.gif);
+	height:85px;
+}
+
+.topLeftCornerTable{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_21.gif);
+	background-repeat:no-repeat;
+	 height:85px;
+	 width:10px;
+}
+.topLeftCornerTable1{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_18.gif);
+	background-repeat:no-repeat;
+	 height:85px;
+	 width:10px;
+}
+
+.topLeftCornerShTable{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxShLeft01.gif);
+	background-repeat:no-repeat;
+	height:5px;
+	width:10px;
+}
+
+.topCornerShTable{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxShBkg01.gif);
+	background-repeat:repeat-x;
+}
+
+.topCornerShRTable{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxShRight01.gif);
+	background-repeat:no-repeat;
+	height:5px;
+	width:15px;
+}
+
+
+.topRightCornerTable{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_22.gif);
+	background-repeat:no-repeat;
+	height:85px; 
+	width:10px;
+}
+
+.announceSubMenuBackGround4{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/fundo_menu04.gif); 
+	background-repeat:repeat-x; 
+	background-position:top ;	
+	height:30px;
+}
+
+.rowYellowBackground{
+	background-color:#fbf18a;
+}
+
+.divPadded20{
+	padding:20px;
+}
+
+.rowGrayBackground{
+	background-color:#FFFFFF;
+}
+
+.rowWhiteBackground{
+	background-color:#ffffff;
+}
+
+.textVerdana7 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+}
+.redObligatoryField{
+	color:#ff0000;
+}
+
+.txtLargeGray {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #FFF;
+	vertical-align: middle;
+}
+
+.txtLargeBlack {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	vertical-align: middle;
+}
+
+a.linkSmallGray {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #666666;
+}
+
+
+a.linkSmallBlack {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	text-decoration: none;
+	color: #000000;
+}
+
+
+a.linkSmallDarkGray {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	text-decoration: none;
+	color: #2F4F4F;
+}
+
+
+a.linkSmallGray:hover {
+	text-decoration: underline;
+}
+
+.txtNormalBlack {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000000;
+	vertical-align: middle;
+}
+
+
+.divCenteredPadded10
+{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.txtArialDarkGray{
+	font-family: Arial, Helvetica;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #666666;
+}
+
+a.changeCountryLink
+{
+	color:#808080
+}	
+	
+.bodyChangeCountry{
+	margin:0px;
+}	
+
+.txtGrayJustify {
+	font-family: Arial, Helvetica;
+	font-size: 8pt;
+	text-decoration: none;
+	color: #666666;
+	text-align:justify;
+}
+
+.txtArialDarkGrayItalic{
+	font-family: Arial, Helvetica;
+	font-size: 8pt;
+	font-weight: bold;
+	color: #666666;
+	font-style:italic;
+}
+
+.txtArialGrayItalic{
+	font-family: Arial, Helvetica;
+	font-size: 8pt;
+	color: #666666;
+	font-style:italic;
+}
+
+
+.divPadded10All{
+	padding:10px;
+}
+
+.smallJustify {
+	font-family: Arial, Helvetica;
+	font-size: 8pt;
+	text-align: justify;
+}
+
+.DarkGrayTable 
+{
+	padding:0;
+	background-color : #CCCCCC; 
+	border-width:0;
+	width:100%;
+}
+
+.txtCouponSuccessfull {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;	
+}
+
+.lynkContentWidth
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/headerBkg.png);
+	background-repeat:repeat;
+}
+
+.lightYellowHeaderTable 
+{
+	background-color : #fefae7;
+	margin:0px;
+}
+
+
+.legalAdviceRedTitle
+{
+ color:#FFF;
+ font-family: Verdana, Arial, Sans-Serif;
+}
+
+.legalAdviceContent
+{
+ color:#000;
+ font-family: Verdana, Arial, Helvetica, sans-serif;	
+ font-size: 7pt;
+}
+.legalAdviceClausesText{
+	font-family: Arial, Helvetica;
+	font-size: 8pt;
+	text-align: justify;
+	color:#666666
+}
+
+.grayborderTableTDPaWorld{
+	background-color:white;
+	border: 1px solid #f0f0f0;
+	width:33%;
+	}
+
+a.linkPaWorld:hover{
+	text-decoration: underline;
+    color:#666666;
+}
+a.linkPaWorld{
+	text-decoration: none;
+	color:#666666;
+}
+
+.small3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9pt;
+	font-weight: bold;
+}
+
+.textGrayBody
+{
+	color:#666666;
+}
+
+.marginSubsCribeTerms
+{
+	text-align:justify;
+	padding:10px;
+}
+
+a.linkSubsCribeTerms:hover{
+	text-decoration: underline;
+    color:#666666;
+}
+a.linkSubsCribeTerms{
+	color:#666666;
+}
+
+.divBeigeBorderRed 
+{
+	
+	padding-bottom : 0;
+	background-color : #fefae7;
+	text-align:center;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;	
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-style: solid;
+	border-bottom-color: #FF0000;
+	font-family: Arial, Helvetica;
+	font-size: 8pt;
+}
+.barraTitle {
+	text-decoration: none;
+	color: #ADADAD;
+	font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+	padding-left: 2px;
+}
+.barraTitleText {
+	text-decoration: none;
+	color: #333333;
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+}
+.barraLink {
+	text-decoration: underline;
+	color: #333333;
+	font: bold 9px Verdana, Arial, Helvetica, sans-serif;
+}
+.barraText {
+	text-decoration: none;
+	color: #333333;
+	font: normal 10px Verdana, Arial, Helvetica, sans-serif;
+}
+.barBusH2 {
+	text-decoration: none;
+	color: #333333;
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+	padding-left: 7px;
+}
+.lineaBl {
+	text-decoration: underline;
+	font-weight: bold;
+	background: #dbdbdb;
+}
+.barraHeaderGround{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/headBG.jpg);
+	background-repeat:repeat-x;
+}
+.leftBarraBorder{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/lateral_iquierdo.gif);
+	background-repeat:repeat;
+}
+.rightBarraBorder
+{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/lateral_derecho.gif);
+}
+
+.barraTableBG
+{
+ background: #FFFFFF;
+}
+
+.barraVerticalLine
+{
+ background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/vertical.jpg);	
+}
+
+.tableAlingCenter
+{
+   margin:auto;
+}
+
+.AnnounceHereTitleLabel{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:9pt;
+	color:#000;
+	font-weight: bold;
+}
+.barBusLink {
+	text-decoration: underline;
+	color: #333333;
+	font: bold 9px Verdana, Arial, Helvetica, sans-serif;
+}
+.barBusContent {
+	text-decoration: none;
+	color: #333333;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+}
+.barBusH1 {
+	text-decoration: none;
+	color: #ADADAD;
+	font: bold 16px Verdana, Arial, Helvetica, sans-serif;
+	padding-left: 2px;
+}
+.lineaBl {
+	text-decoration: underline;
+	font-weight: bold;
+	background: #dbdbdb;
+}
+.barBusH2Left {
+	text-decoration: none;
+	color: #333333;
+	font-size: 13px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+.barBusText {
+	text-decoration: none;
+	color: #333333;
+	font-size: 13px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+.barBusTextHighLight {
+	text-decoration: none;
+	color: #999999;
+	font: 11px Verdana, Arial, Helvetica, sans-serif;
+}
+.lineaYl {
+	text-decoration: none;
+	font-weight: bold;
+	background: #F4CD59;
+}
+
+.textMediumBlackBold{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7.5pt;
+	color: #000000;
+	font-weight:bold;
+}
+
+.textMediumWhiteBold{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+
+.textMediumWhiteBoldHelp{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7.5pt;
+	color: #FFFFFF;
+	font-weight:bold;
+}
+
+.mapBkLeft
+{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/mapa/izqbg.gif);
+	width:25;
+}
+
+.mapBkRight
+{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/mapa/derbg.gif);
+	width:26;
+}
+
+.mapTableRight{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7.5pt;
+	color: #000000;
+
+}
+
+.bkImageAdvantage
+{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tBkg.gif);
+	background-repeat:repeat-x;
+}
+
+.yellowPageAdvantage{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #FF6600;
+}
+
+.PublicarAdvantage{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #003399;
+}
+
+.UlAdvantage
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;	
+	font-weight:bold;
+	text-align:justify;
+}
+
+a.LinkGuideCont:hover {  text-decoration: none; background-color: #FFFF00}
+a.LinkGuideCont 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color:#666666;
+	font-size:10pt;
+	font-weight:bold;
+}
+
+.bodyGuideCont
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;	
+	text-align:justify;		
+
+}
+
+.txtItalic
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10pt;	
+	text-align:justify;		
+	font-style:italic;
+}
+.HowAnnounceBckGround
+{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/h_bkgYellow.gif);			
+}
+
+.cabzShadow
+{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/cabz_shadow.gif);
+	background-repeat:repeat-x;	
+}
+
+.cabz_t-prodDw
+{
+   background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/cabz_t-prodDw.gif);
+   background-repeat:repeat-x; 
+}
+
+.BckLeftCodesCountry
+{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxUpLeft02.gif);
+	background-repeat:repeat-y;		
+}
+
+.BckRightCodesCountry
+{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxUpRight02.gif);
+	background-repeat:repeat-y;		
+}
+
+.grayborderTableTDCountryCode{
+	background-color:white;
+	border: 1px solid #f0f0f0;
+}
+
+.BckTitleCountryCodes
+{
+	background-color:#cccccc;
+	text-align:center;	
+}
+
+.BckLeftTitleCountryCodes
+{
+	background-color:#cccccc;
+	text-align:left;	
+}
+
+.BckBottomLeftCodesCountry
+{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxDwLeft02.gif);
+	height:10px;
+}
+
+.boxYellowDark{
+	background-color: #FFE329;
+	border: 1px solid #7C7D7D;
+}
+
+.textBlackMedium11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	line-height: 110%;
+}
+
+.textBlackBoldMedium11 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	line-height: 110%;
+	font-weight:bold;
+}
+
+.iSep{height:3px;width:100%;}
+.dP4t{padding-top:4px;}
+.divMean{padding:5px 0px 5px 0px;}
+
+/* for new companycategory */
+.txtResultsBld {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	font-weight:bold;	
+	line-height: 11pt;
+	padding:4px;
+}
+
+.LogoImageLink 
+{
+	width:100px;
+	height:60px;
+}
+
+
+.txtResults {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	color: #000000;
+	line-height: 11pt;
+	padding-top:4px; /*modify for new companycategory*/
+}
+
+/* end for new companycategory */
+
+/*Styles for the alpha view*/
+.upperLeftPagerW{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_04.gif);	
+	background-repeat:repeat-y;
+	width:10px;
+}
+
+.upperRightPagerW{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/boxRightBkg01.gif);	
+	background-repeat:repeat-y;
+}
+
+.noSelOpt
+{
+	font-family:Arial;
+	font-size:8pt;
+	color:Blue;
+}
+
+.selOpt
+{
+	font-family:Arial;
+	font-size:8pt;
+	font-weight:bold;
+	color:Blue;
+}
+
+.upperLeftPagerG{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_06.gif);	
+	background-repeat:repeat-x;
+}
+
+.upperPagerG{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_07.gif);	
+	background-repeat:repeat-x;
+}
+
+.upperRightPagerG{
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_08.gif);	
+	background-repeat:repeat-x;
+}
+
+
+
+.cssUpperMenu {
+	background-color: #FEFAE7;
+	margin: 0px auto;
+	padding: 0px;
+	width: 760px;
+	border-style: solid;
+	
+	height: 35px;
+	border-bottom-color: #CCCCCC;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;
+	border-bottom-width: 1px;
+	
+}
+
+
+.cssUpMeLinksDiv {
+	float: left;
+	margin-right: 5px;
+	margin-left: 5px;
+	border-width: 0px;
+	
+	/* Para centrar el div dentro del div principal del menu */
+	position:relative;top:50%;margin-top:-0.6em;line-height:1
+}
+
+
+.cssUpMeCountryDiv {
+	float: right;
+	margin-right: 5px;
+	margin-left: 5px;
+	border-width: 0px;
+	
+	/* Para centrar el div dentro del div principal del menu */
+	position:relative;top:50%;margin-top:-0.5em;line-height:1
+}
+
+.cssCenteredImage{
+	vertical-align:middle; margin-right:4px;margin-left:4px;
+}
+
+.cssCenteredServiceImage{
+	vertical-align:middle; margin-right:6px;margin-left:4px;
+}
+
+
+.HKeywordContextClass
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #0000FF;
+	font-weight: bold;
+}
+/*Classes for the splash screen of eStara*/
+.divSplashHText
+{
+	font-size:12px;
+	font-family:arial, verdana, sans-serif;
+	line-height: 12px;
+	text-align: justify;
+	padding:30px 10px 10px 10px;
+}
+.divSplashContent
+{
+	width:410px;height:420px;background:#FFFFFF;
+}
+
+.divSplashItem
+{
+	font-size:12px;
+	font-family:arial, verdana, sans-serif;
+	line-height: 12px;
+	padding:5px;
+	float:right;width:100%;
+}
+
+.divSplashText4
+{
+	font-size:12px;
+	font-family:arial, verdana, sans-serif;
+	text-align:justify;
+	line-height: 12px;
+	padding:0px;
+	float:left;width:80%;
+}
+.lnkSplashLegal{font-size:11px;font-family:arial,verdana,sans-serif;}
+.divEStaraLegalH
+{
+	font-size:12px;
+	font-family:arial, verdana, sans-serif;
+	line-height: 12px;
+	text-align: justify;
+	padding:30px 10px 10px 10px;
+}
+.divEStaraLegalC
+{
+	background:#FFFFFF;
+	font-size:12px;
+	font-family:arial, verdana, sans-serif;
+	line-height: 12px;
+	padding:10px 10px 10px 10px;
+}
+
+.fields {
+	font-family: verdana, arial, helvetica, sans-serif;
+	font-size: 8pt;
+	background-color: #FFFFCC;
+}
+
+.CouponBackGround
+{
+    background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/cupon/fondo.jpg);
+}
+
+.CouponFormBackGround
+{
+    background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+    background-position: -1020px -356px;
+    background-repeat:no-repeat;
+}
+
+#idCuponLabel1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #3399CC;
+	text-decoration: none;
+	padding-left: 12px;
+	padding-right: 55px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.suscribeFreeInscriptionTitle2
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;	
+}
+
+/* Cambios para Ficha Técnica */
+
+.tablaInfoDetailed
+{
+    width:585px ;
+    border:0px;    
+}
+.infoDetailedArriba
+{
+    width:230px;
+    height:40px;
+    background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/arribaFicha.png);
+}
+.infoDetailedCuerpo
+{
+    width:230px;
+    height:19px;
+    background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/cuerpoFicha.png);
+}
+.infoDetailedFooter
+{
+    width:230px;
+    height:100%;   
+}
+.tablaInfoDetailedBody
+{
+    width:585px;
+    border:0px;
+    margin-top:15px;
+    background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/cuerpoFicha.png);
+}
+.tblServicios
+{
+    width:585px;
+    border:0;   
+}
+.tblEtiquetas
+{    
+    border:0px;
+    padding-left:35px;    
+}
+.pnlBranchServices
+{
+    border:0px;
+    padding-left:10px;  
+}
+
+.lblServicio 
+{
+    font-size: 15px;
+    color: #666666;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.lblSubServicio 
+{
+    font-size: 12px
+}
+.tdServicio
+{
+    width:227px;
+    height:30px;
+    text-align:left;
+    display:table-cell;
+    vertical-align:middle;
+    background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/casillaFicha.png);
+}
+
+.tdSubServicio
+{
+    padding-left: 6px;
+    padding-top: 3px;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+}
+
+.fullServiceCompany
+{
+    float: left;        
+}
+
+.fullService
+{
+    float: left;    
+}
+
+.fullSrvComp
+{
+    padding-top:10px;
+    padding-bottom:20px;    
+}
+
+.fullSrv
+{
+    padding-top:10px;
+    padding-bottom:20px;
+}
+
+.tdBranch
+{
+    height:22px;
+    vertical-align:top;
+    background-color:#ffcc00;
+    text-align:left;    
+}
+
+.lblBranch 
+{
+    font-family:Arial,Helvetica,sans-serif;
+    font-weight:bold;
+    font-size:15px;
+    margin-left: 10px;
+}
+
+.tdBranchHeader
+{
+    width:585px;
+    height:12px;   
+    background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/2arribaFicha.png); 
+}
+
+.tdBranchFooter
+{
+    width:585px;
+    height:12px;   
+    background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/2abajoFicha.png);
+    padding-bottom: 15px; 
+}
+
+
+.tdBranchLine
+{
+    width:550px;
+    height:21px;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/lineaFicha.png); 
+}
+
+.lblBranchName 
+{
+    font-size:13px;
+    font-weight:bold;
+    font-family:Arial,Helvetica,sans-serif;
+    margin-left: 10px;
+}
+
+.lblBranchInfo
+{
+    font-size:12px;
+    font-family:Arial,Helvetica,sans-serif;
+    margin-left: 10px;
+}
+
+.branchServicesImage
+{
+    text-align:right;
+    padding-right: 20px;
+    padding-bottom:2px;
+}
+
+/* Fin cambios para Ficha Técnica */
+
+/*Pager Control*/
+.divPagerLayout{ background-color: #CCCCC4; position: relative; height: 4ex; margin-bottom:2px; margin-top:0px; float:right; width:100%}
+.divPagerLinks {position: absolute; right: 15px;}
+.divPagerResults {position: absolute; left: 15px;}
+
+/***************************************************************************
+Begin SiteMap Styles
+*****************************************************************************/
+.cssSiteMapContent
+{
+    width:100%;
+}
+.SiteMapCountries
+{
+    position:relative;
+    float:left;
+    margin:20px;
+    background-color:#FFFFFF;
+    width:291px;
+    height:270px;
+    border: solid #CCCCCC 1px;
+}
+.SiteMapCatalogs
+{
+    position:relative;
+    float:left; 
+    margin:20px;
+    background-color:#FFFFFF;
+    width:289px;
+    height:270px;
+    border: solid #CCCCCC 1px;
+}
+.SiteMapServices
+{
+    position:relative;
+    float:left; 
+    margin:20px;
+    background-color:#FFFFFF;
+    width:291px;
+    height:270px;
+    border: solid #CCCCCC 1px;
+}
+.SiteMapKeywords
+{
+    position:relative;
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    margin-right:20px;
+    background-color:#FFFFFF;
+    width:958px;
+    border: solid #CCCCCC 1px;
+}
+.SiteMapBreadCrum
+{
+	width: 964px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #eaeaea;
+	border-left-color: #eaeaea;
+	background-color:#FFFFFF;	
+	font-family:Arial,Helvetica,sans-serif;	
+	margin:0 auto;	
+	padding-top:5px;	
+	font-size:12px;	
+}
+
+.SiteMapLinkBreadCrum
+{	
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;	
+	background-color:#FFFFFF;	
+	font-family:Arial,Helvetica,sans-serif;	
+	margin:0 auto;	
+	padding-top:5px;	
+	font-size:12px;	
+}
+
+.SiteMapLinkBreadCrum:Visited
+{	
+	color:#FF9900;	
+	text-decoration:none;
+}
+
+.SiteMapLinkBreadCrum:Link
+{	
+	color:#FF9900;
+	text-decoration:none;
+}
+
+
+
+.siteMapTitle
+{
+    float:left;
+    font-family:Arial,helvetica,sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    margin-left:10px;
+    margin-top:10px;
+    position:relative;
+    color:Black;
+    vertical-align:top;
+}
+
+.siteMapTitleLink
+{
+    color:#000000;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:10pt;
+	font-weight:bold;
+	text-decoration:none;
+	vertical-align:top;
+	text-align:center;
+}
+
+
+.SiteMapLink 
+{
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	list-style-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/iconolista1.gif);
+	margin-bottom:3px;
+	text-decoration:none;
+	vertical-align:top;
+	display:list-item;
+}
+
+
+.SiteMapTableCell
+{
+	margin-left:50px;
+	vertical-align:text-top;
+}
+
+.SiteMapTableHome
+{
+	width:964px;	
+}
+
+.SiteMapLink:hover 
+{
+color:#EA6100;
+text-decoration:none;
+vertical-align:top;
+}
+
+
+/**********************************************************************
+End SiteMap Styles
+**************************************************************************/
+
+
+/*************************************************************************
+Begin Headers Styles
+**************************************************************************/
+.HUpperLinks
+{
+    margin-top:0px;
+    margin-bottom:0px;    
+}
+.txtBreadCrumsResults
+{ 
+    font:normal 8pt/14pt Verdana, Arial, Helvetica, sans-serif; 
+    color:#000000; 
+    text-decoration:none;
+    margin-bottom:0px;
+    margin-top:0px;
+}
+
+.HAdvanceSearch
+{
+    float:left;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
+    margin-top:0;
+    position:relative;    
+}
+
+.loginbody {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_gral.jpg);
+	background-repeat: repeat-x;
+}
+.headerPA {
+	background-color: #000000;
+	width: 970px;
+	height:97px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.logo {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/logo_publicar.gif);
+	float: left;
+	height: 80px;
+	width: 240px;
+	margin-top: 3px;
+	margin-right: 3px;
+	margin-bottom: 0px;
+	margin-left: 3px;
+}
+.banner {
+	float: left;
+	height: 60px;
+	width: 468px;
+	margin-top: 16px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 7px;
+}
+.topRight {
+	float: right;
+	margin-top: 8px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+}
+.setStartPage {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	margin-top: 6px;
+}
+.setStartPage a {
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.setStartPage a:hover {
+	font-weight: normal;
+	color: #FFCC00;
+	text-decoration: underline;
+}
+.setStartPage a:active {
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.setStartPage a:visited {
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.currentDate {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: right;
+	padding: 2px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.countries {
+	margin-top: 6px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+}
+.ChLangButton {
+	width: 970px;
+	height:40px;
+	text-align: left;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_ingles.gif);
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.ChLangButtonWhite {
+	width: 970px;
+	height:40px;
+	text-align: left;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_ingles_white.gif);
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.ChLangButton img, ChLangButtonWhite img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.searchBoxPA {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondobuscador.gif);
+	height: 200px;
+	width: 970px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	
+}
+.innerSearchBoxPA {
+	float: left;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
+.searchTitlePA {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	margin-top: 10px;
+}
+.searchTermPA {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+}
+.searchNotePA {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	text-align: left;
+	margin: 1px;
+}
+.helpButtonPA {
+	float: none;
+	height: 28px;
+	margin-top: 34px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: left;
+	width: 200px;
+}
+.searchFieldPA 
+{
+	background-color: Transparent;
+	border:0 none #000000;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px;
+	font-weight:normal;
+	margin-left:0;
+	margin-top:1px;
+	padding-left:1px;
+	padding-top:1px;
+	text-decoration:none;
+	width:190px;
+}
+
+.searchFieldDivPA 
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position:0 -729px;
+	margin-top: 4px;
+	border: 0px none #000000;
+	height: 25px;
+	width: 200px;
+	background-color: #CCCCCC;
+	padding-top: 7px;
+	padding-left: 10px;
+	background-repeat:no-repeat;
+}
+.searchFieldPA2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	border: none;
+	background-color: Transparent;
+	height: 18px;
+	width: 107px;
+}
+.searchFieldDivPA2
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/busqueda3.gif);
+	width: 110px;
+	background-color: #CCCCCC;
+	padding-top: 7px;
+	padding-left: 10px;
+	height:26px;
+	margin-top:3px;
+}
+
+.searchFieldPA3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	border:none;
+	background-color: Transparent;
+	height: 26px;
+	width:150px;
+}
+.searchFieldDivPA3
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/busqueda2.gif);
+	width: 155px;
+	background-color: #CCCCCC;
+	padding-top: 7px;
+	padding-left: 10px;
+	height:26px;
+}
+.searchButtonPA {
+	margin-top: 25px;	
+	margin-left: 10px;
+}
+.stealPagePA {
+	margin: 5px;
+	float: right;
+	height: 180px;
+	width: 268px;
+	margin-right: 20px;
+}
+.stealPagePAPanama {
+	margin: 5px;
+	float: left;
+	height: 180px;
+	width: 430px;
+	margin-right: 20px;
+}
+.menutop {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_menutop.gif);
+	height: 34px;
+	width: 970px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;	
+}
+.menutop ul{
+	margin: 0;
+	padding: 0;
+}
+.menutop ul li {
+	margin: 0;
+	list-style-type: none;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	height: 34px;
+	text-align: center;
+	cursor: hand;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/separador_menutop.gif);
+	background-repeat: no-repeat;
+	display: block;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 24px;
+	float: left;
+	background-position: left center;
+}
+
+.menutop ul li a {
+	color: #000000;
+	text-decoration: none;
+}
+.menutop ul li a:hover {
+	color: #f47a21;
+	text-decoration: none;
+}
+.menutop ul li a:active {
+	color: #f47a21;
+	text-decoration: none;
+}
+.menutop ul li a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+.cupon {
+	float: left;
+	height: 34px;
+	width: 101px;
+}
+.itemmenu {
+	margin-top:5px;
+}
+.menuTopSeparator {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -1386px;
+	background-repeat:no-repeat;
+	font-size: 0px; /* IE6 Hack the min size for IE6 is 20 with this hack the size 13px can be applied*/
+	height: 10px;
+	width: 970px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	
+}
+.menuBottomseparator {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -2040px -356px;
+	background-repeat: no-repeat;
+	height: 14px;
+	width: 13px;
+	float: left;
+}
+.menuBottom {
+	height: 30px;
+	width: 924px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #eaeaea;
+	border-left-color: #eaeaea;
+	padding-top: 8px;
+	padding-left: 40px;
+	text-align: center;
+	clear: left;
+	display: block;
+}
+.linkBottom {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: underline;
+	float: left;
+}
+.linkBottom a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: underline;
+	float: left;
+}
+.linkBottom a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #ea6100;
+	text-decoration: underline;
+	float: left;
+}
+.linkBottom a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: underline;
+	float: left;
+}
+.linkBottom a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: underline;
+	float: left;
+}
+
+.centralBanners {
+	text-align: center;
+	vertical-align: middle;
+	width: 964px;
+	padding-top: 5px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #eaeaea;
+	border-left-color: #eaeaea;
+}
+.specialGuidesTitle {
+	text-decoration: none;
+	height: 33px;
+	width: 964px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #eaeaea;
+	border-left-color: #eaeaea;
+	padding-top: 5px;
+}
+.specialGuidesIcon {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -2040px 0;
+	background-repeat:no-repeat;
+	float: left;
+	height: 33px;
+	width: 51px;
+}
+.specialGuidesIcon2 {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -2040px -83px;
+	background-repeat:no-repeat;
+	float: left;
+	height: 33px;
+	width: 51px;
+}
+.specialGuidesTitleText {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	height: 25px;
+	width: 400px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_titulos_busquedas.gif);
+	padding-top: 5px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+}
+.specialGuidesTitleText2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	height: 25px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_titulos_busquedas.gif);
+	padding-top: 5px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-left: 3px;
+	width: 400px;
+}
+.specialGuidesIconEnd {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1021px -207px;
+	background-repeat:no-repeat;
+	float: left;
+	height: 33px;
+	width: 17px;
+}
+.specialGuidesIconEnd2 {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1021px -207px;
+	background-repeat:no-repeat;
+	float: left;
+	height: 33px;
+	width: 17px;
+}
+.listsTopBackground {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -2040px -504px;
+	height: 20px;
+	width: 964px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #eaeaea;
+	border-left-color: #eaeaea;
+	background-repeat: no-repeat;
+}
+.listsContent {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_listas.gif);
+	background-repeat: repeat-y;
+	width: 964px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #eaeaea;
+	border-left-color: #eaeaea;
+	background-color: #fff;
+}
+.listsContent ul {
+	float:left;
+	margin:2px;
+	padding-left:20px;
+	padding-top:0;
+}
+.listsContent li {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #666666;
+	text-decoration: none;
+	list-style-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/iconolista1.gif);
+	margin-bottom: 3px;
+}
+.listsContent a {
+	color: #666666;
+	text-decoration: none;
+}
+.listsContent li a:hover {
+	color: #ea6100;
+	text-decoration: none;
+}
+.listsContent li a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+.listsContent li a:active {
+	color: #666666;
+	text-decoration: none;
+}
+.listsBottomBackground {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -528px; 
+	background-repeat: no-repeat;
+	height: 20px;
+	width: 964px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #eaeaea;
+	border-left-color: #eaeaea;
+}
+.footerPA {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-color: #fff;
+	height: 160px;
+	width: 964px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #eaeaea;
+	border-left-color: #eaeaea;
+	padding-top: 10px;
+	text-align: center;
+	clear: left;
+}
+.footerPA a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: underline;
+}
+.footerPA a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: underline;
+}
+.footerPA a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #ea6100;
+	text-decoration: underline;
+}
+.searchBoxWhite {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondobuscador_white.gif);
+	height: 190px;
+	width: 970px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	
+}
+.innerSearchBoxWhite {
+	float: left;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 15px;
+}
+.searchTitleWhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	margin-top: 2px;
+}
+.searchNoteWhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	clear: both;
+	float: none;
+}
+.obligatoryWhite {
+	color: #FF0000;
+}
+.searchTermWhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	margin-top: 10px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+	width: 150px;
+}
+.searchTermWhite4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	margin-top: 10px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+	width: 300px;
+}
+.searchTermWhite3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	margin-top: 10px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+	width: 305px;
+}
+.searchFieldWhite2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	margin-top: 5px;
+	border: 0px none #000000;
+	height: 25px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -977px;
+	width: 129px;
+	padding-top: 7px;
+	padding-left: 10px;
+	background-repeat: no-repeat;
+}
+.searchTermWhite2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	margin-top: 10px;
+	margin-right: 2px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+}
+.searchButtonWhite {
+	float: none;
+	height: 28px;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: left;
+	clear: both;
+}
+.stealPageWhite {
+	margin: 5px;
+	float: right;
+	height: 180px;
+	width: 280px;
+}
+.helpButtonWhite {
+	float: none;
+	height: 28px;
+	margin-top: 30px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: left;
+	clear: both;
+}
+
+/*Results styles*/
+.topresults
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_busqueda_left.gif);
+	background-color: #fff;
+	height: 16px;
+	width: 964px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-repeat: repeat-y;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #eaeaea;
+	border-left-color: #eaeaea;
+}
+
+.results {
+	width: 964px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	display: block;
+	clear: both;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #eaeaea;
+	border-left-color: #eaeaea;
+	overflow: hidden;
+}
+.categorydown {
+	clear: both;
+	float: left;
+	width: 314px;
+}
+.categoriescontainer{
+	float: left;
+	width: 314px;
+	clear: both;
+}
+
+.categorybutton {
+	float: right;
+}
+.categoryend{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -1620px;
+	background-repeat: no-repeat;
+	float: right;
+	height: 29px;
+	width: 18px;
+}
+
+.iconcategory {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -1541px;
+	background-repeat: no-repeat;
+	float: left;
+	height: 29px;
+	width: 35px;
+}
+.titlecategorytext{
+	padding-top: 8px;
+	float: left;
+}
+.searchleftdata{
+	clear: both;
+	float: left;
+	padding-left: 16px;
+	width: 298px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_busqueda_left.gif);
+	background-repeat: repeat-y;
+}
+.titlesearch {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	margin-top: 10px;
+}
+.termsearch {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+	clear: both;	
+}
+.termsearch2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	margin-top: 10px;
+	margin-right: 2px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+}
+.termsearch1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	margin-top: 33px;
+	margin-right: 2px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+}
+.termsearch3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	margin-top: 15px;
+	margin-right: 2px;
+	margin-bottom: 3px;
+	margin-left: 4px;
+	padding-right: 70px;
+}
+.field_searchresult {
+	background-color:transparent;
+	border:0 none #000000;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	height:20px;
+	margin-top:1px;
+	padding-left:0px;
+	text-decoration:none;
+	width:260px;
+}
+
+.field_searchresultDiv
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -811px;
+	margin-top: 5px;
+	border: 0px none #000000;
+	height: 26px;
+	width: 280px;
+	background-color: #CCCCCC;
+	padding-top: 7px;
+	padding-left: 10px;
+	background-repeat:no-repeat;
+	margin-top: 20px;
+}
+.field_search2result {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	margin-top: 5px;
+	border: 0px none #000000;
+	height: 26px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -1302px;
+	background-repeat: no-repeat;
+	width: 127px;
+	background-color: #CCCCCC;
+	padding-top: 6px;
+	padding-left: 10px;
+}
+.field_search3resutls{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	margin-top: 5px;
+	border: 0px none #000000;
+	height: 26px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -1302px;
+	background-repeat: no-repeat;
+	width: 127px;
+	background-color: #CCCCCC;
+	padding-top: 6px;
+	padding-left: 10px;
+}
+.notesearch {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #666666;
+	text-align: left;
+	margin: 1px;
+}
+.buttonsearch2 {
+	float: left;
+	height: 28px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 2px;
+	text-align: left;
+	width: 167px;
+	clear: none;
+}
+.buttonhelp2 {
+	float: left;
+	height: 28px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: left;
+}
+.bottomsearch 
+{
+	clear: both;
+	float: left;
+	height: 16px;
+	width: 314px;
+	background-repeat: no-repeat;
+}
+.bottomsearchbusqueda 
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -396px;
+	clear: both;
+	float: left;
+	height: 16px;
+	width: 314px;
+	background-repeat: no-repeat;
+}
+
+.contentresults{
+	background-color: #FFFFFF;
+	margin-left: 316px;
+	padding-right: 15px;
+	padding-left: 20px;
+	float: none;
+}
+.categories 
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/categoria_fondo.gif);
+	background-repeat: repeat;
+	white-space: normal;
+	clear: both;
+	float: left;
+	width: 314px;	
+}
+.categories a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	clear: right;
+	padding-bottom: 5px;
+	padding-left: 40px;
+	padding-right: 28px;
+	display: block;
+}
+.categories a:visited {
+	color: #000000;
+}
+.categories a:hover {
+	color: #ea6100;
+}
+.categories a:active {
+	color: #000000;
+}
+.categorycurve {
+	text-align: left;
+	float: left;
+	height: 27px;
+	width: 180px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/categoria_curvadown.gif);
+	background-repeat: no-repeat;
+}
+.categoryBackground
+{
+    display: none;   
+}
+
+.titlecategory{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: none;
+	height: auto;
+	float: left;
+	clear: both;
+	width: auto;
+	padding-left: 40px;
+}
+.categorytop 
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/categoria_fondo.gif);
+	clear: both;
+	float: left;
+	height: 27px;
+	width: 314px;
+	background-repeat: repeat-y;
+}
+.backgroundresults{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_resultados.gif);
+	width: 998px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+
+.resultssearch {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	background-color: #f2f2f2;
+	padding: 10px;
+	margin-top: 7px;
+	float: left;
+	width: 97%;
+}
+.resultscoldata {
+	float: left;
+	width: 70%;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+.infobox {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	text-align: left;
+	padding: 3px;
+	border: 1px solid #999999;
+	font-weight: normal;
+	margin-bottom: 7px;
+	width:100%;	
+	white-space: normal;
+}
+.address{
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+.country{
+	margin-bottom: 3px;
+}
+.phone {
+	margin-bottom: 3px;
+}
+.slogan
+{	
+}
+.keyword
+{
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-size: 11px;
+	 font-weight: normal;
+	 color: #666666;
+	 text-decoration: none;
+}
+.contextkeyword
+{
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-size: 11px;
+	 font-weight: bold;
+	 color: #0000FF;
+	 text-decoration: none; 	
+}
+.linkbranches {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 5px;
+	margin-left: -5px;
+	color: #666666;
+	padding-left:15px;
+}
+.linkbranches a:link{
+	color: #666666;
+	text-decoration: none;
+}
+.linkbranches a:visited{
+	color: #666666;
+	text-decoration: none;
+}
+.linkbranches a:hover{
+	color: #ea6100;
+	text-decoration: none;
+}
+.linkbranches a:active{
+	color: #666666;
+	text-decoration: none;
+}
+.arrow {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -290px;
+	height: 16px;
+	width: 5px;
+	float: left;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	background-repeat: no-repeat;
+}
+.resultscollogo {
+	float: right;
+	width: 25%;
+	padding-right: 10px;
+	padding-top: 10px;
+	background-color: #F2F2F2;
+}
+.logoclient{
+	padding-top: 5px;
+	padding-right: 2px;
+	padding-bottom: 3px;
+	padding-left: 2px;
+	text-align: center;
+}
+.buttonview {
+	padding-top: 5px;
+}
+.buttonview img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+.buttonsresults {
+	margin-top: 8px;
+	clear: both;
+	float: none;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	background-color: #F2F2F2;
+}
+
+.tabsresults {
+    /*border-bottom:2px solid #F9921C;*/
+    clear:both;
+    float:none;
+    margin-top:15px;
+    padding-top:5px;
+    height: 18px;
+}
+
+.tabsresults img {
+	border-style:solid;
+	border-width:0;
+	padding-right:1px;
+}
+
+.buttonsresults img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+.resultscoldata h3 {
+	 font-family: Arial, Helvetica, sans-serif;
+	 font-size: 20px;
+	 font-weight: bold;
+	 color: #f37d13;
+	 margin-bottom: 5px;
+	 text-decoration: none;
+	 WHITE-SPACE: normal;
+}
+.resultscoldata h3 a:link {
+ color: #f37d13;
+ text-decoration: none;
+
+}
+.resultscoldata h3 a:visited {
+ color: #f37d13;
+ text-decoration: none;
+
+}
+.resultscoldata h3 a:hover {
+ color: #666666;
+ text-decoration: none;
+
+}
+.resultscoldata h3 a:active {
+ color: #f37d13;
+ text-decoration: none;
+
+}
+
+.pageryellowbar{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/barra_amarilla_fondo.gif);
+	height: 24px;
+	width: 100%;
+	clear: none;
+	float: left;
+}
+.pageryellowbar1{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/barra_amarilla_fondo1.gif);
+	height: 24px;
+	width: 100%;
+	clear: none;
+	float: left;
+}
+
+.pagerend {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -82px;
+	background-repeat: no-repeat;
+	float: right;
+	height: 24px;
+	width: 11px;
+}
+
+.pagerendfooter {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -156px;
+	background-repeat: no-repeat;
+	float: right;
+	height: 24px;
+	width: 11px;
+}
+
+.pager {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	padding-top: 4px;
+	padding-left: 5px;
+	float: left;
+}
+.pager a:link{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.pager a:visited{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.pager a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ea6100;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.pager a:active{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #ea6100;
+	padding-right: 2px;
+	padding-left: 2px;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #ea6100;
+	border-left-color: #ea6100;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.pagerdata {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	padding-top: 7px;
+	padding-left: 5px;
+	float: right;
+	text-align: right;
+}
+.sort {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: underline;
+	padding-top: 4px;
+	text-align: right;
+	float: right;
+	width: 50%;
+}
+.sort a:link{
+	color: #000000;
+}
+.sort a:visited{
+	color: #000000;
+}
+.sort a:hover{
+	color: #ea6100;
+}
+.sort a:active{
+	color: #000000;
+}
+
+.sortNombre
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-align: left;
+	vertical-align:top;
+	float: left;
+	width: 100%;
+}
+
+
+.categoriesPanel
+{
+	padding-top:0px;
+	padding-bottom:0px;
+	padding-right:20px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/categoria_fondo.gif);
+	background-repeat: repeat;
+}
+.bannersponsor
+{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.location {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	padding-bottom: 3px;
+}
+.location h1{
+	font-size: 8pt;
+	display: inline;
+	margin: 0 0;
+}
+.locationMatchingCategory
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: justify;
+	padding-bottom: 3px;
+}
+.matchingCategory
+{
+	color: #666666;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size: 7pt;
+	font-weight: normal;
+	text-decoration: none;
+	text-align: justify;
+}
+.matchingCategory h2
+{
+	display: inline;
+	margin: 0;
+	font-weight: normal;
+}
+.textPageResult
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 7pt;
+	color: #000000;
+	text-decoration: underline;
+}
+.mean {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF0000;
+	text-decoration: none;
+	text-align: left;
+	padding-bottom: 3px;
+	font-style: italic;
+}
+.mean a {
+	color: #000000;
+	text-decoration: none;
+}
+.mean a:hover {
+	color: #ea6100;
+	text-decoration: none;
+}
+.mean a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+.mean a:active {
+	color: #666666;
+	text-decoration: none;
+}
+.displayName {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	/*width: 50%;*/
+	padding-top: 4px;
+}
+.displayName a {
+	color: #ea6100;
+	text-decoration: none;
+}
+.displayName a:hover {
+	color: #666666;
+	text-decoration: none;
+}
+.displayName a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+.displayName a:active {
+	color: #666666;
+	text-decoration: none;
+}
+.bannerleft {
+	text-align: center;
+	clear: none;
+	float: left;
+	width: 316px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.bannerleft img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+.alphabeticorder {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #F37D13;
+	text-decoration: underline;
+	float: right;
+	padding-top: 2px;
+	text-align: right;
+		
+}
+.alphabeticorder a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #F37D13;
+	text-decoration: underline;
+	padding-top: 2px;
+	text-align: right;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.alphabeticorder a:visited {
+	color: #F37D13;
+	text-decoration: underline;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.alphabeticorder a:hover {
+	color: #666666;
+	text-decoration: underline;
+	padding-left: 1px;
+	padding-right: 1px;
+
+}
+.alphabeticorder a:active{
+	color: #F37D13;
+	text-decoration: underline;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.txtSmallBlue
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 8pt;
+	text-decoration: none;
+	color: #0000FF;
+	vertical-align: bottom;
+}
+.buttonback{
+	text-align: center;
+	margin-top: 8px;
+}
+.sectionsseparator {
+	background-color: #d4d4d4;
+	clear: both;
+	margin-top: 5px;
+	padding-top: 1px;
+	background-color: #F2F2F2;
+}
+.section {
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	padding-left:10px;
+}
+.section  a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+}
+.section  a:visited {
+	color: #000000;
+}
+.section  a:hover {
+	color: #ea6100;
+}
+.section  a:active {
+	color: #000000;
+}
+.sectionquantity
+{
+	color: #F37D13;
+}
+.resultssearchsections
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	background-color: #f2f2f2;	
+	float: left;
+	width: 100%;
+}
+.resultssearchbranches {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	background-color: #f2f2f2;
+	float: left;
+	width: 100%;
+}
+.resultssearchsectionsitem 
+{
+	clear: left;
+}
+.branches
+{
+	padding:10px;	
+}
+
+/*Result Syles White*/
+
+.topResultsWhite
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_busqueda_left_white.gif);
+	background-color: #fff;
+	height: 16px;
+	width: 964px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-repeat: repeat-y;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #eaeaea;
+	border-left-color: #eaeaea;
+}
+.resultsWhite {
+	width: 964px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	display: block;
+	clear: both;
+	border-right-width: 3px;
+	border-left-width: 3px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #eaeaea;
+	border-left-color: #eaeaea;
+	overflow: hidden;
+}
+.searchBoxContainerWhite {
+	float: left;
+	width: 314px;
+	clear: both;
+	display: block;
+}
+.searchBoxDataWhite {
+	clear: both;
+	float: left;
+	padding-left: 16px;
+	width: 298px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_busqueda_left_white.gif);
+	background-repeat: repeat-y;
+}
+.searchBoxTitle {
+	font-family: Calibri;
+	font-size: 19px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	margin-top: 10px;
+}
+.searchTermResutlWhite {
+	font-family: Calibri;
+	font-size: 16px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	margin-top: 10px;
+	margin-right: 2px;
+	margin-bottom: 3px;
+	margin-left: 3px;
+	clear: both;
+	width: 100%;
+}
+.searchFieldResultWhite {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	margin-top: 5px;
+	border: 0px none #000000;
+	height: 20px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -1143px;
+	width: 127px;
+	background-color: #CCCCCC;
+	padding-top: 5px;
+	padding-left: 10px;
+	background-repeat: no-repeat;
+}
+.searchFieldResultWhite2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	margin-top: 5px;
+	border: 0px none #000000;
+	height: 20px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/busqueda3result_white.gif);
+	width: 149px;
+	background-color: #CCCCCC;
+	padding-top: 5px;
+	padding-left: 10px;
+}
+.helpButtonResutlWhite {
+	float: left;
+	height: 28px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	text-align: left;
+}
+.searchButtonResutlWhite {
+	float: left;
+	height: 28px;
+	margin-top: 5px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 2px;
+	text-align: left;
+	clear: none;
+	padding-left: 20px;
+}
+.bottomResultWhite {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -462px;
+	background-color: #fff;
+	display: block;
+	clear: both;
+	float: left;
+	width: 314px;
+	background-repeat: no-repeat;
+	height: 18px;
+}
+.resultContentWhiteSearch {
+	background-color: #FFFFFF;
+	margin-left: 316px;
+	padding-right: 15px;
+	padding-left: 20px;
+	float: none;
+}
+.bannerLeftResultWhite {
+	text-align: center;
+	clear: none;
+	float: left;
+	width: 314px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.resultsWhiteContainer {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	background-color: #f2f2f2;
+	padding: 10px;
+	float: left;
+	width: 97%;
+}
+.singleResultWhiteContainer {
+	float: left;
+	width: 100%;
+	padding-top: 0px;
+	margin-bottom: 13px;
+}
+.singleResultWhiteContainer h1 {
+	font-family: Calibri;
+	font-size: 15px;
+	font-weight: bold;
+	color: #ee6f2a;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.separatorWhiteResult {
+	background-color: #d4d4d4;
+	clear: both;
+	padding-top: 1px;
+	margin-bottom: 13px;
+}
+.urlPage {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+}
+.noResults {
+	margin-bottom: 3px;
+	white-space: normal;
+}
+.topCenterTableBorderYellow{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_19.gif);
+	height:85px;
+}
+.topCenterTableBorderYellow2{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_19c.gif);
+	height:85px;
+}
+
+.topLeftCornerTableBorderYellow{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_21.gif);
+	background-repeat:no-repeat;
+	height:85px;
+    width:12px;
+}
+
+.topRightCornerTableBorderYellow{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tab_20.gif);
+	background-repeat:no-repeat;
+	height:85px; 
+	width:15px;
+}
+
+.suscribeFreeInscriptionTitle
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;	
+}
+
+.HelpButtonA
+{
+	vertical-align: bottom;
+}
+
+.titulocontactosimbolo {
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/contactos_simbolo.gif);
+	background-repeat:no-repeat;
+	float:right;
+	height:62px;
+	width:171px;
+}
+
+.toplogocontactos {
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/contactos_titulo.gif);
+	background-repeat:no-repeat;
+	float:left;
+	height:62px;
+	width:127px;
+}
+.topcontactos {
+	width: 442px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 62px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/contactos_fondo_titulo.gif);
+	background-repeat: repeat;
+}
+.contenidocontacto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-decoration: none;
+	width: 422px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/contacto_fondo_formularios.gif);
+}
+.topllamegratis {
+	width: 410px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	height: 56px;
+	background-color: #000000;
+}
+.titulollame {
+	float: right;
+	padding-top: 18px;
+	padding-right: 18px;
+}
+.toplogo {
+	height: 56px;
+	width: 165px;
+	float: left;
+}
+.top {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/estatico_fondo_top.gif);
+	height: 43px;
+	width: 410px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.topderecha {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -1792px;
+	background-repeat: no-repeat;
+	float: left;
+	height: 43px;
+	width: 25px;
+}
+.topizquierda {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 -1699px;
+	background-repeat: no-repeat;
+	float: right;
+	height: 43px;
+	width: 25px;
+}
+.contenido {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-decoration: none;
+	width: 410px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #FFFFFF;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/estatico_img1.jpg);
+	background-position: right top;
+	background-repeat: no-repeat;
+}
+.intro {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	white-space: normal;
+	width: 280px;
+	padding-top: 3px;
+	padding-left: 8px;
+}
+.itemnum1
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/estatico_num1.gif);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	text-align: left;
+	white-space: normal;
+	padding-left: 20px;
+	clear: right;
+	width: 290px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+.itemnum2
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/estatico_num2.gif);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	text-align: left;
+	white-space: normal;
+	padding-left: 20px;
+	clear: right;
+	width: 290px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+.itemnum3
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/estatico_num3.gif);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	text-align: left;
+	white-space: normal;
+	padding-left: 20px;
+	clear: right;
+	width: 290px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+.itemnum4
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/estatico_num4.gif);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	text-align: left;
+	white-space: normal;
+	padding-left: 20px;
+	clear: right;
+	width: 290px;
+	background-position: left top;
+	background-repeat: no-repeat;
+	margin-top: 10px;
+	margin-left: 7px;
+}
+
+.breadcrumb
+{
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 8pt;
+		color: #000000;
+		vertical-align: middle;	
+}
+.linkProductClass 
+{
+	font-weight: normal;
+	text-decoration: none;
+}
+.linkProductClass:hover
+{
+	font-weight: normal;
+	text-decoration: none;
+}
+.linkProductClass:active
+{
+	font-weight: normal;
+	text-decoration: none;
+}
+.linkProductClass:visited
+{
+	font-weight: normal;
+	text-decoration: none;
+}
+.moreInfoProductClass
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1140px;
+	background-repeat: no-repeat;
+	width: 62px;
+	height: 18px;
+}
+.moreInfoProductClass:hover
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1208px;
+	background-repeat: no-repeat;
+	width: 62px;
+	height: 18px;
+	cursor: pointer;
+}
+
+.emailProductClass
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -732px;
+	background-repeat: no-repeat;
+	width: 44px;
+	height: 18px;
+}
+.emailProductClass:hover
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -800px;
+	background-repeat: no-repeat;
+	width: 44px;
+	height: 18px;
+	cursor: pointer;
+}
+
+.digitalMapProductClass
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -868px;
+	background-repeat: no-repeat;
+	width: 44px;
+	height: 18px;
+}
+.digitalMapProductClass:hover
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -936px;
+	background-repeat: no-repeat;
+	width: 44px;
+	height: 18px;
+	cursor: pointer;
+}
+
+.howDoIGetProductClass
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1004px;
+	background-repeat: no-repeat;
+	width: 88px;
+	height: 18px;
+}
+.howDoIGetProductClass:hover
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1072px;
+	background-repeat: no-repeat;
+	width: 88px;
+	height: 18px;
+	cursor: pointer;
+}
+
+.freeCallProductClass
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 105px;
+	height: 32px;
+}
+.freeCallProductClass:hover
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	width: 105px;
+	height: 32px;
+	cursor: pointer;
+}
+
+.photosProductClass
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1276px;
+	background-repeat: no-repeat;
+	width: 46px;
+	height: 18px;
+}
+.photosProductClass:hover
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1344px;
+	background-repeat: no-repeat;
+	width: 46px;
+	height: 18px;
+	cursor: pointer;
+}
+
+.videoProductClass
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1684px;
+	background-repeat: no-repeat;
+	width: 47px;
+	height: 18px;
+}
+.videoProductClass:hover
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1752px;
+	background-repeat: no-repeat;
+	width: 47px;
+	height: 18px;
+	cursor: pointer;
+}
+
+.streetViewProductClass
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1548px;
+	background-repeat: no-repeat;
+	width: 64px;
+	height: 18px;
+}
+.streetViewProductClass:hover
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1616px;
+	background-repeat: no-repeat;
+	width: 64px;
+	height: 18px;
+	cursor: pointer;
+}
+
+.virtualTourProductClass
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1820px;
+	background-repeat: no-repeat;
+	width: 41px;
+	height: 18px;
+}
+.virtualTourProductClass:hover
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1888px;
+	background-repeat: no-repeat;
+	width: 41px;
+	height: 18px;
+	cursor: pointer;
+}
+
+.flippingBookClass
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -596px;
+	background-repeat: no-repeat;
+	width: 54px;
+	height: 18px;
+}
+
+.flippingBookClass:hover
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -664px; 
+	background-repeat: no-repeat;
+	width: 54px;
+	height: 18px;
+}
+
+.saveShareProductClass
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1412px;
+	background-repeat: no-repeat;
+	width: 106px;
+	height: 18px;
+}
+.saveShareProductClass:hover
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/mapa.gif);
+	background-position: -1020px -1480px;
+	background-repeat: no-repeat;
+	width: 106px;
+	height: 18px;
+	cursor: pointer;
+}
+.YellowButtonsMenu 
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_ingles.gif);
+	width: 970px;
+	height:38px;
+	text-align: left;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+}
+.YellowButtonsMenu img, YellowButtonsMenu img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+/* Styles of refinement control */
+.pnlActiveFilters
+{
+    vertical-align: top;
+    background-color: #FFCC00;
+    text-align: center;    
+}
+.pnlAvailFilters
+{
+    vertical-align: top;
+    background-color: #FFCC00;
+    text-align: center;
+    padding-left: 0px;
+    padding-right:0px;
+    width: 263px;
+}
+.lblAvFilters
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/barra2.png);
+	background-repeat:no-repeat;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin-left: 15px;
+	color: #000000;
+	height: 19px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-left: 15px;	
+	text-align: left;
+	width: 215px;
+	display: block;	
+	cursor: pointer;
+}
+
+.ctlRefinement
+{
+	height: auto;
+	background-position:center;	
+	margin-left: 9px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 15px;
+	text-align: center;		
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/fondo.png);
+	width: 305px;	
+}
+.lblSubService
+{
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;
+	margin-bottom:0px;
+	text-align:left;
+}
+.tblHeader
+{
+	width: 260px;
+	text-align: center;
+	border: 0;
+}
+.titleRefine
+{
+	height: 28px;
+	width: 292px;
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.titleActiveFilters
+{
+	margin-top:10px;
+}
+.pnlAvailableFilters
+{
+	padding-left: 0px;
+	padding-bottom: 5px;
+	text-align: left;
+	width: 246px;	
+}
+.lblSeeMore
+{
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: normal;
+    color: #000000;
+    margin-bottom: 5px;
+    text-align: right;
+    float:right;
+    padding-right:20px;
+    color:#000000;
+}
+.lnkService
+{
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: bold;
+	text-align:left;
+	color: #000000;
+	padding-left: 20px;
+	margin-bottom: 0px;
+	text-decoration: none;
+	background-color:#FFCC00;
+	border-style: none;	
+}
+.dtlFilterItem
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/barra1.png);
+	background-repeat:no-repeat;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+	vertical-align: middle;
+	height: 15px;
+	padding-bottom: 5px;	
+}
+.tblActiveLabels
+{
+	border: 0px;
+	width: 220px;
+	text-align: center;
+	padding: 0px;
+}
+.lblFilter
+{
+	height: 19px;
+	margin-top: 0px;
+	margin-bottom: 15px;
+	padding-left: 15px;
+	text-align: left;
+	width: 215px;	
+}
+.pnlDeleteFilters
+{
+	text-align: right;
+	font-size: 11px;
+	font-weight: bold;
+	width: 232px;
+}
+.pnlLblActiveFilters
+{
+	vertical-align: top;
+    background-color: #FFCC00;
+    text-align: left;
+    width: 263px;
+}
+.dtlFilters
+{
+	padding-left: 20px;
+	margin-bottom:5px;
+	margin-left:15px;
+	width:80%;
+}
+.pnActFilters
+{
+	vertical-align: top;
+    background-color: #FFCC00;
+    text-align: center;
+    width:auto;
+    margin-bottom: 10px;    
+}
+.pnlColExp
+{
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondocolder.gif);
+	background-repeat: repeat;	
+}
+.tableRefinement 
+{
+	width: 305px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/fondo.png);
+	text-align: center;
+	padding: 0px;
+	border: 0px;
+}
+.titlerefinement
+{
+    padding-top: 8px;
+	float: left;
+}
+.refinementBackground
+{
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.tableRefinementCtl
+{
+	text-align: center;
+	border: 0;
+	width: 305px;
+}
+.tblActiveFilters
+{
+	text-align: center;
+	border: 0;
+	width: 263px;
+}
+.tblFilters
+{
+	text-align: center;
+	border: 0;
+	width: 263px;
+}
+.actfilterTitle
+{
+    float: left;   
+}
+.actfilterHelp
+{
+    text-align: right;
+    float: right;
+}
+.activetitle
+{
+    float: left;
+	clear: both;
+	margin-top: 10px;
+}
+.activecontentlabel
+{
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;       
+}
+.activecontent
+{
+    
+}
+.deletefilterslabel
+{
+    text-align:right;
+    padding-right: 30px;
+}
+.txtDeleteFilters
+{
+	font-family: Arial;
+	font-size: 11px;
+	font-weight: normal;
+	color: #000000;	
+}
+.avfilterContent
+{
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px; 
+}
+.avfilterTitle
+{
+    float: left;
+    margin-top: 15px;
+    text-align: center;
+}
+.activefilterBackground
+{
+    background-color: #FFCC00;   
+}
+.avfilterBackground
+{
+   background-color: #FFCC00;
+   text-align: center; 
+}
+/*End of styles refinement control*/
+
+
+/* IE6 PNG Fix 
+img, div, input { behavior: url("/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/iepngfix.htc") }*/
+
+/*ss (Save & Share) is a Prefix for all styles in this class.*/
+.ss_MainContainer 
+{
+	width: 588px;
+	height:407px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/saveShare/fondo.png);
+}
+
+.ss_LeftContainer 
+{
+	position: absolute; 
+	left: 2px; 
+	top: 10px;
+	width: 180px;
+	height:406px;
+	z-index: 4;
+}
+
+.ss_RightContainer 
+{
+	position: absolute; 
+	left: 185px; 
+	top: 10px;
+	width: 401px;
+	height:384px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/saveShare/bg_rightContainer.png);
+	z-index: 1;
+}
+
+.ss_MenuButton 
+{
+	width: 180px;
+	height: 51px;
+	position:absolute;
+	left: 2px;
+	top: 10px;
+	z-index: 4;
+}
+
+.ss_MyPCButton 
+{
+	top: 10px;
+}
+
+.ss_MyContactsButton 
+{
+	top: 70px;
+}
+
+.ss_MyEmailButton 
+{
+	top: 130px;
+}
+
+.ss_MyFavoritesButton 
+{
+	top: 190px;
+}
+
+.ss_MyMobileButton 
+{
+	top: 250px;
+}
+
+.ss_ContentContainer
+{
+	position: absolute;
+	left: 2px; 
+	top: 76px;
+	width: 395px;
+	height:300px;
+	z-index: 2;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/saveShare/bg_content.gif);
+}
+
+.ss_Content 
+{
+	width: 340px;
+	height: 275px;
+	z-index: 3;
+	margin-left: 25px;
+	margin-top: 25px;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/saveShare/bg_content.gif);
+	background-position: center;
+}
+
+.ss_MsgContent 
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 368px;
+	height: 280px;
+	z-index: 4;
+	margin-left: 20px;
+	margin-top: 5px;
+	background-color: #f19101;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/saveShare/gracias.png);
+	background-position: center;
+	color: #000;
+}
+
+.ss_LoadingBox 
+{
+	line-height: 230px;
+	text-align: center;
+}
+
+.ss_ContentTextStyle {
+	color:#333333;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size:13px;
+	font-weight:bold;
+}
+
+.ss_OrLabel 
+{
+	position: absolute;
+	left: 140px;
+}
+
+.ss_bookmark_encabezadobk {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/saveshare/bookmark/fondo_titulo_bk.jpg);
+	height: 117px;
+	width: 497px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.ss_bookmark_encabezadoiniciobk {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/saveshare/bookmark/inicio_titulo_bk.jpg);
+	float: left;
+	height: 117px;
+	width: 114px;
+}
+.ss_bookmark_encabezadotextosbk {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	float: left;
+	height: 117px;
+	width: 323px;
+}
+.ss_bookmark_finalencabezadobk {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/saveshare/bookmark/final_titulo_bk.jpg);
+	float: right;
+	height: 117px;
+	width: 60px;
+}
+.ss_bookmark_texto1bk {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 13px;
+	color: #F90;
+	text-decoration: none;
+	padding-top: 55px;
+	font-weight: bold;
+}
+.ss_bookmark_texto2bk {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333;
+	text-decoration: none;
+	padding-top: 3px;
+}
+.ss_bookmark_cuerpobk {
+	background-color: #FFF;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/saveshare/bookmark/cuerpobk.jpg);
+	background-repeat: no-repeat;
+	height: 246px;
+	width: 497px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.ss_bookmark_cuerpotextobk {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/saveshare/bookmark/fondo_cuerpo_textos.jpg);
+	height: 180px;
+	width: 497px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+.ss_bookmark_finalbk {
+	background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/saveshare/bookmark/final_bk.jpg);
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 497px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+}
+
+.ss_bookmark_boxtextos {
+	padding-left: 115px;
+}
+.ss_bookmark_boxsubtitle {
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	width: 90px;
+}
+.ss_bookmark_boxtxt {
+	font-weight: normal;
+	color: #000;
+	text-decoration: none;
+	text-align: left;
+	float: left;
+	width: 195px;
+}
+.ss_bookmark_txtlinea {
+	clear: both;
+	float: none;
+	height: 16px;
+	width: 285px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #FFEDC4;
+}.ajax__tab_panel {
+    overflow: auto;
+}
+
+.PATabStyle .ajax__tab_panel {
+    overflow: auto;
+}
+
+.PATabStyle .ajax__tab_outer {
+	background:none;
+	height:18px;
+}
+
+.PATabStyle .ajax__tab_inner {
+	background:none;
+}
+
+.PATabStyle .ajax__tab_tab {
+	background:none;
+	height:13px;
+	margin:0;
+	padding:2px;
+}
+
+.PATabStyle .ajax__tab_inner .ajax__tab_tab {
+	margin-right:2px;
+}
+
+.PATabStyle .ajax__tab_body {
+	background-color:#FFFFFF;
+	border-color:-moz-use-text-color #999999 #999999;
+	border-style:none solid solid;
+	border-width:0 1px 1px;
+	font-family:verdana,tahoma,helvetica;
+	font-size:10pt;
+	padding:8px;
+}
+
+.PATabStyle .ajax__tab_header {
+	background:transparent url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/tabHeader.gif) repeat-x scroll center bottom;
+	font-family:verdana,tahoma,helvetica;
+	font-size:11px;
+}
+.PATabStyle .ajax__tab_header {
+	white-space:nowrap;
+} 
+.imageHeaderTab 
+{
+}
+/* Inicio Cambios Temporales */
+
+/*nt it a prefix for New Tabs*/
+.nt_tabContainer {
+	width: 612px;
+}
+
+.nt_tabHeader {
+}
+
+.nt_tabHeaderContainer {
+	cursor:pointer;
+	height:13px;
+    margin-right:2px;
+    overflow:hidden;
+    text-align:center;
+    white-space:nowrap;
+    display:inline;
+}
+
+.nt_tabHeaderLink {
+	border: 0px;
+}
+
+.nt_tabContents {
+	border-color: -moz-use-text-color #999999 #999999;
+	border: 0px;
+	font-family: verdana,tahoma,helvetica;
+	font-size:10pt;
+	padding:8px;
+	margin-top: -4px;
+}
+
+/* Fin Cambios temporales*/
+
+.menuBottomLogin {
+	background-color:transparent;
+	clear:left;
+	display:block;
+	height:30px;
+	margin:0 auto;
+	padding-left:40px;
+	padding-top:8px;
+	text-align:center;
+	width:950px;
+}
+.listsContentLogin
+{
+	/*background-image: url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/newdesign/fondo_listas.gif);*/ /*background-repeat: repeat-y;*/
+	width: 990px;
+	height: 1030px;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: auto;
+	background-color:transparent;
+
+}
+
+.footerPALogin
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: none;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-color:transparent;
+	height: 160px;
+	width: 990px;
+	margin-top: 0;	
+	margin-bottom: 0;	
+	padding-top: 10px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	clear: left;	
+
+}
+
+
+
+
+
+
+
+
+/************Inicio Estilos control palabras mas buscadas************/
+
+.InnerTaggingContent
+{
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	padding:0;
+	margin-left:20px;
+	margin-right:10px;
+	line-height:25px;
+	text-align:center;
+}
+
+.taggingNivel6 {
+	font-size:12px;
+	display:inline;
+	margin:0;
+	padding:0;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.taggingNivel5 {
+	font-size:14px;
+	display:inline;
+	margin:0;
+	padding:0;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.taggingNivel4 {
+	font-size:16px;
+	display:inline;
+	margin:0;
+	padding:0;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.taggingNivel3 {
+	font-size:19px;
+	display:inline;
+	margin:0;
+	padding:0;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.taggingNivel2 {
+	font-size:22px;
+	display:inline;
+	margin:0;
+	padding:0;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.taggingNivel1 {
+	font-size:25px;
+	display:inline;
+	margin:0;
+	padding:0;
+	color:#666666;
+	font-family:Arial,Helvetica,sans-serif;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.taggingNivel6:hover {
+	font-size:12px;
+	display:inline;
+	margin:0;
+	padding:0;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	background-color:#FDB913;
+	border:medium none;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.taggingNivel5:hover {
+	font-size:14px;
+	display:inline;
+	margin:0;
+	padding:0;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	background-color:#FDB913;
+	border:medium none;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.taggingNivel4:hover {
+	font-size:16px;
+	display:inline;
+	margin:0;
+	padding:0;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	background-color:#FDB913;
+	border:medium none;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.taggingNivel3:hover {
+	font-size:19px;
+	display:inline;
+	margin:0;
+	padding:0;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	background-color:#FDB913;
+	border:medium none;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.taggingNivel2:hover {
+	font-size:22px;
+	display:inline;
+	margin:0;
+	padding:0;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	background-color:#FDB913;
+	border:medium none;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.taggingNivel1:hover {
+	font-size:25px;
+	display:inline;
+	margin:0;
+	padding:0;
+	color:#FFFFFF;
+	font-family:Arial,Helvetica,sans-serif;
+	background-color:#FDB913;
+	border:medium none;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.ControlSeparator
+{
+	background-color:#FFFFFF;
+	border-left:3px solid #EAEAEA;
+	border-right:3px solid #EAEAEA;
+	height:6px;
+	margin:0 auto;
+	padding-top:5px;
+	text-decoration:none;
+	width:964px;	
+}
+/************Fin Estilos control palabras mas buscadas************/
+.csslayer
+{
+	height:200px;
+	width:590px;	
+	position:absolute;	
+	background-image:url(/web/20101230105427/http://www.paginasamarillas.com/App_Themes/PA_DefaultTheme/images/transparente.png);	
+	padding:10px;
+	color:white;
+	font-size:50px;
+	margin:0px;
+	cursor:pointer;
+}
+ .bannersponsor
+{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
